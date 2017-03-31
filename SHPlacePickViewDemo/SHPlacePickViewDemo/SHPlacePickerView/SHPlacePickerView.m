@@ -171,6 +171,7 @@
     if(self.selectArray){
         
         _sendPlaceArray(self.selectArray);
+        [self removeFromSuperview];
     }else{
         
         NSString *title = NSLocalizedString(@"未选择地区", nil);
