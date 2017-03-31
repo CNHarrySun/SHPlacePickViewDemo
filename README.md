@@ -7,7 +7,7 @@
 
 ### 效果图：
 
-![三级地区选择器](http://oixwuce1i.bkt.clouddn.com/%E6%96%B0%E4%B8%89%E7%BA%A7%E5%9C%B0%E5%8C%BA%E9%80%89%E6%8B%A9%E5%99%A8.gif)
+![三级地区选择器](http://oixwuce1i.bkt.clouddn.com/SH%E5%9C%B0%E5%8C%BA%E9%80%89%E6%8B%A9%E5%99%A8.gif)
 
 
 ### 方法简介：
