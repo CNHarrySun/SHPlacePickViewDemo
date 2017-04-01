@@ -2,6 +2,18 @@
 ## 一行代码实现三级地区选择器
 
 
+## 4月1日更新 修改model类型以及SHPlacePickerView的内部实现
+
+
+#### 具体修改请查看代码
+
+
+#### [[简书]iOS开发_一行代码实现三级地区选择器](http://www.jianshu.com/p/fe039f8e2492)
+
+
+
+---
+
 ## 3月31日 封装三级地区选择器SHPlacePickerView
 
 

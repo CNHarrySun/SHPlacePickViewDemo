@@ -1,45 +1,20 @@
-    //
-    //  PlaceModel.h
-    //  SHPlacePickViewDemo
-    //
-    //  Created by HarrySun on 2017/3/31.
-    //  Copyright © 2017年 Mobby. All rights reserved.
-    //
+//
+//  PlaceModel.h
+//  SHPlacePickViewDemo
+//
+//  Created by HarrySun on 2017/3/31.
+//  Copyright © 2017年 Mobby. All rights reserved.
+//
 
-    #import <Foundation/Foundation.h>
+#import <Foundation/Foundation.h>
 
-    @interface PlaceModel : NSObject
-
-    @end
+@interface PlaceModel : NSObject
 
 
-    // 省
-    @interface Province : NSObject
-
-    /**
-     省名称
-     */
-    @property (nonatomic, strong) NSString *provinceName;
-
-    /**
-     本省的市数组
-     */
-    @property (nonatomic, strong) NSMutableArray *cityArray;
-
-    @end
+@property (nonatomic, strong) NSString *provinceName;
+@property (nonatomic, strong) NSMutableArray *cityArray;
+@property (nonatomic, strong) NSMutableArray *districtArray;
 
 
-    // 市
-    @interface City : NSObject
+@end
 
-    /**
-     市名称
-     */
-    @property (nonatomic, strong) NSString *cityName;
-
-    /**
-     本市的区数组
-     */
-    @property (nonatomic, strong) NSArray *districtAarray;
-
-    @end

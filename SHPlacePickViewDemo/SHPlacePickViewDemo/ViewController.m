@@ -38,26 +38,14 @@
 
 -(void)selectAction{
     
-    
     __weak __typeof(self)weakSelf = self;
-    
     self.shplacePicker = [[SHPlacePickerView alloc] initWithIsRecordLocation:YES SendPlaceArray:^(NSArray *placeArray) {
         
+        NSLog(@"省:%@ 市:%@ 区:%@",placeArray[0],placeArray[1],placeArray[2]);
         [weakSelf.selectButton setTitle:[NSString stringWithFormat:@"省:%@ 市:%@ 区:%@",placeArray[0],placeArray[1],placeArray[2]] forState:UIControlStateNormal];
+
     }];
-    
-    
-//    self.shplacePicker = [[SHPlacePickerView alloc] init];
-//    self.shplacePicker.isRecordLocation = YES;
-//    self.shplacePicker.sendPlaceArray = ^(NSArray *placeArray){
-//        
-//        NSLog(@"省:%@ 市:%@ 区:%@",placeArray[0],placeArray[1],placeArray[2]);
-//        
-//        [weakSelf.selectButton setTitle:[NSString stringWithFormat:@"省:%@ 市:%@ 区:%@",placeArray[0],placeArray[1],placeArray[2]] forState:UIControlStateNormal];
-//    };
-    
     [self.view addSubview:self.shplacePicker];
-    
 }
 
 
